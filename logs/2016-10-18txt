@@ -1,0 +1,33 @@
+[18-Oct-2016 16:58:07 Europe/Moscow] Выявленно исключение: 'Exception' с сообщением 'Нет соответствующего маршрута.'
+Трасса стека:#0 C:\OpenServer\domains\my-framework\public\index.php(55): core\Router->dispatch('products')
+#1 {main}
+возникло в 'C:\OpenServer\domains\my-framework\core\Router.php' на строке 115
+[18-Oct-2016 17:04:24 Europe/Moscow] Выявленно исключение: 'Exception' с сообщением 'Нет соответствующего маршрута.'
+Трасса стека:#0 C:\OpenServer\domains\my-framework\public\index.php(55): core\Router->dispatch('products')
+#1 {main}
+возникло в 'C:\OpenServer\domains\my-framework\core\Router.php' на строке 115
+[18-Oct-2016 17:05:12 Europe/Moscow] Выявленно исключение: 'Exception' с сообщением '..\App\views\Home/inde.php не найден.'
+Трасса стека:#0 C:\OpenServer\domains\my-framework\App\controllers\Home.php(21): core\View::render('Home/inde.php', Array)
+#1 [internal function]: App\controllers\Home->indexAction()
+#2 C:\OpenServer\domains\my-framework\core\Controller.php(20): call_user_func_array(Array, Array)
+#3 C:\OpenServer\domains\my-framework\core\Router.php(104): core\Controller->__call('index', Array)
+#4 C:\OpenServer\domains\my-framework\public\index.php(55): core\Router->dispatch('')
+#5 {main}
+возникло в 'C:\OpenServer\domains\my-framework\core\View.php' на строке 16
+[18-Oct-2016 17:12:41 Europe/Moscow] Выявленно исключение: 'Exception' с сообщением '..\App\views\Home/inde.php не найден.'
+Трасса стека:#0 C:\OpenServer\domains\my-framework\App\controllers\Home.php(21): core\View::render('Home/inde.php', Array)
+#1 [internal function]: App\controllers\Home->indexAction()
+#2 C:\OpenServer\domains\my-framework\core\Controller.php(20): call_user_func_array(Array, Array)
+#3 C:\OpenServer\domains\my-framework\core\Router.php(104): core\Controller->__call('index', Array)
+#4 C:\OpenServer\domains\my-framework\public\index.php(55): core\Router->dispatch('')
+#5 {main}
+возникло в 'C:\OpenServer\domains\my-framework\core\View.php' на строке 16
+[18-Oct-2016 17:12:52 Europe/Moscow] Выявленно исключение: 'Exception' с сообщением 'Нет соответствующего маршрута.'
+Трасса стека:#0 C:\OpenServer\domains\my-framework\public\index.php(55): core\Router->dispatch('products')
+#1 {main}
+возникло в 'C:\OpenServer\domains\my-framework\core\Router.php' на строке 115
+[18-Oct-2016 17:13:37 Europe/Moscow] Выявленно исключение: 'Error' с сообщением 'Class 'Exeption' not found'
+Трасса стека:#0 C:\OpenServer\domains\my-framework\core\Router.php(104): core\Controller->__call('uuuu', Array)
+#1 C:\OpenServer\domains\my-framework\public\index.php(55): core\Router->dispatch('posts/uuuu')
+#2 {main}
+возникло в 'C:\OpenServer\domains\my-framework\core\Controller.php' на строке 25
